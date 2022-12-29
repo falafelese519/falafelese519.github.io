@@ -1,3 +1,5 @@
 # Build settings
 markdown: kramdown
 theme: minima
+title: Theft Detection
+description: Bookmark this to keep an eye on my project updates!
