@@ -102,7 +102,7 @@ As we are using a lot of sensors and modules, we did face some challenges in int
 We used PIO for interfacing the 'OLED Display' to RP2040 using I2C protocol.
 
 
- ![Logic_Diagram](https://user-images.githubusercontent.com/114099174/210114120-620617d4-3023-4b1f-84d8-54e722d68671.png)
+![Logic_Diagram](https://user-images.githubusercontent.com/114099174/210116627-7e8353af-0950-44cd-aa9d-7b5d89f892ae.png)
 
 
  
