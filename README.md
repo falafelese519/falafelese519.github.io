@@ -30,12 +30,9 @@ On researching, we came across ESP32-CAM by ArduCam. This is a Wi-Fi + Camera mo
 It’s the cheapest (around $7) ESP32 dev board that offers an onboard camera module,  MicroSD card support, and 4MB PSRAM at the same time.
 Since the board does not have a conventional USB port, you will have to use either an FTDI programmer, or an add-on HAT, or an Arduino UNO along with the Arduino IDE/ESP-IDF DEV tools to upload codes to it.
 
-
-
-
-
-
 A bit more detail about some feature or accomplishment you found particularly satisfying.
+
+As we are using a lot of sensors and modules, we did face some challenges in integrating all of them together. But we are satisfied that we were able to integrate everything, and the project turned out as planned and designed. The end to end functioning from detection to image upload along with solenoid latching/unlatching is something we found satisfactory, given that we built it from scratch. Some extra hardware was also used for stepping down the voltage and we also designed a small circuitry for the solenoid to function properly.
 
 An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
    
