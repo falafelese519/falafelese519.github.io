@@ -79,6 +79,7 @@ attempts and entering into the debug subsystem
 ## Reflections on your design and components/parts you selected, including advantages/disadvantages, whether you would recommend a similar design to future teams, and other design approaches/components you might try next time. Component review: Keypad module:
 
 - Keypad
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeoTrellis 4x4 Keypad mod&nbsp;&nbsp;&nbsp;ule. Th&nbsp;&nbsp;&nbsp;&nbsp;ese 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
 
 - Display: 
