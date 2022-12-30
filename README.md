@@ -79,9 +79,11 @@ attempts and entering into the debug subsystem
 ## Reflections on your design and components/parts you selected, including advantages/disadvantages, whether you would recommend a similar design to future teams, and other design approaches/components you might try next time. Component review: Keypad module:
 
 - Keypad
-Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit NeoTrellis 4x4 Keypad module. These 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
+</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit NeoTrellis 4x4 Keypad mod&nbsp;&nbsp;&nbsp;ule. Th&nbsp;&nbsp;&nbsp;&nbsp;ese 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
 
-- Display: We used a 0.96-inch OLED for displaying the messages. Our code switches between the following 3 messages: -“Open” for a correct password entry -“Alert” on detection of a break-in or shaking of the entire system -“Wrong Pass” on a wrong password entry
+- Display: 
+We used a 0.96-inch OLED for displaying the messages. Our code switches between the following 3 messages: -“Open” for a correct password entry -“Alert” on detection of a break-in or shaking of the entire system -“Wrong Pass” on a wrong password entry.
 
 This OLED satisfied the above display requirements. Unless you want long messages to be displayed, this 0.96-inch display is a perfect choice. Compared to LCD displays OLED is indeed thinner and more efficient. LCDs require backlight whereas OLEDs emit the light themselves with pixels, this one in 128 x 64 pixels to be precise. This allows a thinner build and results in a higher contrast. It is I2C supported.
 
