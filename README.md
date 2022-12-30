@@ -80,8 +80,13 @@ attempts and entering into the debug subsystem
 
 ## A bit more detail about some feature or accomplishment you found particularly satisfying.
 
+
+
 ## An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
-   
+
+ ![Logic_Diagram](https://user-images.githubusercontent.com/114099174/210114120-620617d4-3023-4b1f-84d8-54e722d68671.png)
+
+
  
 ## Team overview
 The team consists of:
