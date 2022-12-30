@@ -80,7 +80,7 @@ attempts and entering into the debug subsystem
 
 - Keypad
 </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit NeoTrellis 4x4 Keypad mod&nbsp;&nbsp;&nbsp;ule. Th&nbsp;&nbsp;&nbsp;&nbsp;ese 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NeoTrellis 4x4 Keypad mod&nbsp;&nbsp;&nbsp;ule. Th&nbsp;&nbsp;&nbsp;&nbsp;ese 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
 
 - Display: 
 We used a 0.96-inch OLED for displaying the messages. Our code switches between the following 3 messages: -“Open” for a correct password entry -“Alert” on detection of a break-in or shaking of the entire system -“Wrong Pass” on a wrong password entry.
