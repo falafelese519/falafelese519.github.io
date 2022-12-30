@@ -99,6 +99,9 @@ As we are using a lot of sensors and modules, we did face some challenges in int
 
 ## An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
 
+We used PIO for interfacing the 'OLED Display' to RP2040 using I2C protocol.
+
+
  ![Logic_Diagram](https://user-images.githubusercontent.com/114099174/210114120-620617d4-3023-4b1f-84d8-54e722d68671.png)
 
 
