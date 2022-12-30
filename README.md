@@ -76,7 +76,7 @@ attempts and entering into the debug subsystem
     
 ## Any significant issues you had to troubleshoot, and how you solved them or adapted your plans (including diagrams, REPL sessions, scope traces, etc.)
 
-##Reflections on your design and components/parts you selected, including advantages/disadvantages, whether you would recommend a similar design to future teams, and other design approaches/components you might try next time. Component review: Keypad module:
+## Reflections on your design and components/parts you selected, including advantages/disadvantages, whether you would recommend a similar design to future teams, and other design approaches/components you might try next time. Component review: Keypad module:
 
 Our first choice for a keypad module was a Flat 4x4 Matrix membrane. We found it a little inconvenient to use so we switched to Adafruit NeoTrellis 4x4 Keypad module. These 4x4 button pad boards are fully tile-able and communicate over I2C. The best part is that it provides full color NeoPixel support. We would strongly recommend using an Adafruit NeoTrellis keypad module to future teams.
 
@@ -86,11 +86,9 @@ This OLED satisfied the above display requirements. Unless you want long message
 
 Wi-Fi and Camera module: Our original plan was to use Pico4ML for image capture and ESP32 Wi-Fi module for uploading the captured image on Firebase storage. The disadvantage of this choice of components is that one has to establish a communication between Pico4ML and Wi-Fi module through SPI and convert the received data on the Wi-Fi module into a proper image before uploading it to the cloud. On researching, we came across ESP32-CAM by ArduCam. This is a Wi-Fi + Camera module. The board is powered by an ESP32-S SoC from Espressif, a powerful, programmable MCU with out-of-the-box WIFI and Bluetooth. It’s the cheapest (around $7) ESP32 dev board that offers an onboard camera module, MicroSD card support, and 4MB PSRAM at the same time. Since the board does not have a conventional USB port, you will have to use either an FTDI programmer, or an add-on HAT, or an Arduino UNO along with the Arduino IDE/ESP-IDF DEV tools to upload codes to it.
 
-A bit more detail about some feature or accomplishment you found particularly satisfying.
+## A bit more detail about some feature or accomplishment you found particularly satisfying.
 
 As we are using a lot of sensors and modules, we did face some challenges in integrating all of them together. But we are satisfied that we were able to integrate everything, and the project turned out as planned and designed. The end to end functioning from detection to image upload along with solenoid latching/unlatching is something we found satisfactory, given that we built it from scratch. Some extra hardware was also used for stepping down the voltage and we also designed a small circuitry for the solenoid to function properly.
-
-An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
 
 
 ## An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
