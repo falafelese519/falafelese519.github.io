@@ -75,6 +75,9 @@ attempts and entering into the debug subsystem
 
     
 ## Any significant issues you had to troubleshoot, and how you solved them or adapted your plans (including diagrams, REPL sessions, scope traces, etc.)
+We faced challenges in uploading a proper image on cloud using Pico4ML and ESP32 Wi-Fi module as they communicate to each other using SPI. To tackle this, we used ESP32-CAM module which supports both Wi-Fi and camera. 
+
+For break-in detection (shaking), we were initially using MPU-6050. We were not able to caliberate it to satisfcation. As a work-around we switched to ADXL-335 for detection. The ADXL335 is a 3-axis analog-output accelerometer with ±3 g measurement range. Using ADXL-335, we were able to easily detect any shaking of the system. 
 
 ## Reflections on your design and components/parts you selected, including advantages/disadvantages, whether you would recommend a similar design to future teams, and other design approaches/components you might try next time. Component review: Keypad module:
 
