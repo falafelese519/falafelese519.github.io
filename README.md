@@ -35,7 +35,10 @@ A bit more detail about some feature or accomplishment you found particularly sa
 As we are using a lot of sensors and modules, we did face some challenges in integrating all of them together. But we are satisfied that we were able to integrate everything, and the project turned out as planned and designed. The end to end functioning from detection to image upload along with solenoid latching/unlatching is something we found satisfactory, given that we built it from scratch. Some extra hardware was also used for stepping down the voltage and we also designed a small circuitry for the solenoid to function properly.
 
 An explanation of the PIO part of your code, including a diagram of the overal logic, as well as an introduction to the RP2040 PIO module and what makes it a unique asset for a microcontroller.
-   
+
+
+   ![Logic_Diagram](https://user-images.githubusercontent.com/114099174/210114120-620617d4-3023-4b1f-84d8-54e722d68671.png)
+
  
  Team overview (ideally with brief photos/bios, up to you) with links to your individual github accounts or personal pages.
 
