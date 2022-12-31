@@ -8,13 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Dec 2022 21:06:59 -0400</lastBuildDate><atom:link href="https://falafelese519.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Theft Detection System</title>
       <link>https://falafelese519.github.io/posts/my-first-post/</link>
       <pubDate>Fri, 30 Dec 2022 21:06:59 -0400</pubDate>
       
       <guid>https://falafelese519.github.io/posts/my-first-post/</guid>
-      <description>Theft Detection System Team Falafel
-Project Overview Our project is a low cost and small form factor theft detection system for packages delivered. The system can be mounted on any box or package container which has a latching system.
+      <description>Project Overview Our project is a low cost and small form factor theft detection system for packages delivered. The system can be mounted on any box or package container which has a latching system.
 The system consists of the following components:
 Host QTpy RP2040 which processes incoming sensor data and makes decisions to trigger the solenoid latch or image capture system. Dedicated arduino for keypad password validation Solenoid to control the locking mechanism of the box ADXL335 IMU to detect a break-in An OLED display for user feedback ESP32-CAM camera + WIFI module to send images of the intruder to the server if a break in has been detected.</description>
     </item>
