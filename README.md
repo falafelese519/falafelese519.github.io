@@ -107,8 +107,7 @@ We used PIO for interfacing the 'OLED Display' to RP2040 using I2C protocol.
 
 The programmable input/output block (PIO) is a versatile hardware interface. It can support a variety of IO standards like I2C, UART, SPI, DSPI, QSPI, 3-pin I2S.
 There are two PIO blocks with four state machines each, that can independently execute sequential programs to manipulate GPIOs and transfer data. Unlike a general purpose processor, PIO state machines are highly specialised for IO, with a focus on determinism, precise timing, and close integration with fixed-function hardware. There are 2 identical PIO blocks in RP2040. Each PIO block has dedicated connections to the bus fabric, GPIO and
-interrupt controller. . Each state machine is equipped with:
-
+interrupt controller. . Each state machine is equipped with: </br>
 • Two 32-bit shift registers </br>
 • Two 32-bit scratch registers </br>
 • 4×32-bit bus FIFO in each direction (TX/RX), reconfigurable as 8×32 in a single direction </br>
